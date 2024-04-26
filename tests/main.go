@@ -1,31 +1,3 @@
-# Goquestor
-
-Goquestor is an asynchronous HTTP client based on net/http with additional features.
-
-## Features
-- Parallel requests
-- Change TLS fingerprint profile
-- Change order of TLS extensions
-- Change order of headers
-- Change order of pseudo headers
-- HTTP/1.1 or HTTP/2
-- Proxy connection
-- Cookie jar
-
-## Installation
-
-Run the following go command
-```sh
-go get -u github.com/mahelbir/goquestor
-```
-
-## Usage
-
-[fhttp Guide](https://github.com/bogdanfinn/fhttp)
-
-[tlsclient Guide](https://bogdanfinn.gitbook.io/open-source-oasis)
-
-```go
 package main
 
 import (
@@ -103,13 +75,3 @@ func main() {
 	fmt.Println(goquestor.Result(responses))
 
 }
-```
-
-## Credits
-Special thanks to the following people for helping me with this project.
-
-[@bogdanfinn](https://github.com/bogdanfinn)
-
-## License
-
-The MIT License (MIT). Please see [License File](LISENCE) for more information.
