@@ -112,4 +112,4 @@ Special thanks to the following people for helping me with this project.
 
 ## License
 
-The MIT License (MIT). Please see [License File](LISENCE) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
